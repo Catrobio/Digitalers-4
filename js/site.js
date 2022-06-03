@@ -43,4 +43,41 @@ function matematicos(){
     alert(a);
 }
 
-matematicos();
+function relacionales(){
+    let a = 5;
+    let b = 3;
+    //let a = "N";
+    //let b = "A";
+    let c;
+    //c = a > b; //false
+    c = a < b;  // true
+    //c = a >= b; // false
+    //c = a <= b; // true
+    //c = a != b; // true
+    //c = a == b; // false
+    //c = a === b; // false
+    alert(c);
+}
+
+
+function logicosAnd(){
+    let a = 3;
+    let b = 3;
+    let c = 2;
+    if(a == b && c > 0)    
+    {
+        alert(c);
+    }
+}
+
+function logicosOR(){
+    let a = 3;
+    let b = 3;
+    let c = 2;
+    if(a < 0 || b > 0)    
+    {
+        alert(c);
+    }
+}
+
+logicosOR();
